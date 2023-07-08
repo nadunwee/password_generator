@@ -22,4 +22,4 @@ Users should be able to:
 
 I'd like to:
 
-- ~~Implement the ability to set the password length~~
+- Add 1 click copy password to the clipboard
