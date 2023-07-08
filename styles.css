@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@200;800&display=swap");
+
+body {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 97vh;
+}
+.password-box {
+  border: none;
+  background-color: #293241;
+  font-family: 'Karla';
+  font-size: ;
+  padding: 40px 40px 40px 40px;
+  border-radius: 8px;
+}
+.main-heading {
+  margin-top: -20px;
+  color: #219ebc;
+}
+.description {
+  margin-top: -15px;
+  font-weight: 200;
+}
+.password-btn {
+  border: none;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-weight: 800;
+  background-color: #219ebc;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.password-btn:hover {
+  transform: scale(0.96);
+}
+label {
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+#length-value {
+  font-weight: bold;
+  margin-left: 5px;
+}
+.password-p {
+  background-color: #00000044;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  max-width: 500px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
